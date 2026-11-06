@@ -1,0 +1,6 @@
+{
+  "name": "FireSafety.Tests",
+  "references": ["FireSafety.Runtime", "FireSafety.Editor"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

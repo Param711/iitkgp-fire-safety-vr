@@ -1,0 +1,80 @@
+{
+  "scope": "Prior working project checks; sanitized source snapshot additionally checked for dependencies and compilation. No physical Quest test is claimed.",
+  "runs": [
+    {
+      "evidence": "controller-play-results-5.xml",
+      "result": "Passed",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "cases": [
+        {
+          "name": "ControllerGripPicksEquipmentAndSecondPressReturnsIt",
+          "result": "Passed"
+        },
+        {
+          "name": "ControllerRaySelectsTheoryAndPanelPreventsWalking",
+          "result": "Passed"
+        },
+        {
+          "name": "LostControllerPausesClockAndRecoveryRequiresNeutralSticks",
+          "result": "Passed"
+        },
+        {
+          "name": "NearbyEquipmentCannotBeGrabbedThroughAWall",
+          "result": "Passed"
+        }
+      ]
+    },
+    {
+      "evidence": "controller-policy-results.xml",
+      "result": "Passed",
+      "total": 2,
+      "passed": 2,
+      "failed": 0,
+      "cases": [
+        {
+          "name": "AnalogButtonHysteresisAvoidsRepeatedActions",
+          "result": "Passed"
+        },
+        {
+          "name": "StickDriftDoesNotMovePlayer",
+          "result": "Passed"
+        }
+      ]
+    },
+    {
+      "evidence": "smoke-playmode-results.xml",
+      "result": "Passed",
+      "total": 6,
+      "passed": 6,
+      "failed": 0,
+      "cases": [
+        {
+          "name": "ActiveFireHasVisibleSmokeConfinedBelowThisFloorsCeiling",
+          "result": "Passed"
+        },
+        {
+          "name": "CorrectPassTechniqueCanSuppressIncident",
+          "result": "Passed"
+        },
+        {
+          "name": "DevelopingFireSpreadsIntoCorridorAnotherRoomAndStairApproach",
+          "result": "Passed"
+        },
+        {
+          "name": "EarlySuppressionPreventsSpreadAndDangerousFireCannotBeInstantlyCleared",
+          "result": "Passed"
+        },
+        {
+          "name": "FilledBucketCanSuppressSmallOrdinaryFireWithoutCreditingPass",
+          "result": "Passed"
+        },
+        {
+          "name": "SmokeThickensWithGrowthAndStopsWhenSourceIsSuppressed",
+          "result": "Passed"
+        }
+      ]
+    }
+  ]
+}

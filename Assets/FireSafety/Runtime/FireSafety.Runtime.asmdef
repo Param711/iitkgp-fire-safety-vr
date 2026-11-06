@@ -1,0 +1,5 @@
+{
+  "name": "FireSafety.Runtime",
+  "rootNamespace": "FireSafety",
+  "references": ["Unity.RenderPipelines.Universal.Runtime", "Unity.InputSystem", "Unity.XR.CoreUtils"]
+}

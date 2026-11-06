@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/FireSafetyTraining.unity
+    guid: 28450d06c52bd6b40928c5672fb579a4
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5fe1aef2d78676348b80fe34b8b791bc,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 73800e3f909b7ea4abfa4cde423136b3,
+      type: 2}

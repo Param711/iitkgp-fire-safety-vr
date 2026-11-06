@@ -1,0 +1,57 @@
+# Unity local caches and build output
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/tmp/
+/UIElementsSchema/
+
+# IDE and operating-system files
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.unityproj
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+
+# Builds, captures and local test output
+*.exe
+*.dll
+*.apk
+*.aab
+*.unitypackage
+*.app
+TestResults*.xml
+sysinfo.txt
+
+# Local secrets, machine-specific signing and participant results
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.keystore
+*.jks
+LastAssessment.json
+/Reports/
+/AssessmentResults/
+/My project*/
+/WhatsApp*
+
+# Keep Unity authoring assets and their .meta identifiers under version control.

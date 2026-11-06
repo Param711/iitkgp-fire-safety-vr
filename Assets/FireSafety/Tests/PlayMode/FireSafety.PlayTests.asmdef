@@ -1,0 +1,5 @@
+{
+  "name": "FireSafety.PlayTests",
+  "references": ["FireSafety.Runtime", "Unity.InputSystem", "Unity.XR.CoreUtils"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

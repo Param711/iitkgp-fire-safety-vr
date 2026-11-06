@@ -1,0 +1,69 @@
+{
+  "pages": [
+    {
+      "title": "FIRST DECISION: SAFETY",
+      "body": "Alert others and arrange an emergency assistance call.\n\nOnly consider an extinguisher if you are trained,\nthe fire is small, the equipment is suitable,\nand a clear escape route remains behind you.\n\nIf smoke, heat or a growing fire makes this unsafe,\nleave by a safe route instead of attempting suppression.\n\nEvacuating without using an extinguisher is valid.\nKnowing PASS does not mean every fire can be tackled.",
+      "narration": "First decision: safety. Alert others and arrange an emergency assistance call. Only consider an extinguisher if you are trained, the fire is small, the equipment is suitable, and a clear escape route remains behind you. If smoke, heat or a growing fire makes this unsafe, leave by a safe route instead of attempting suppression. Evacuating without using an extinguisher is valid. Knowing PASS does not mean every fire can be tackled."
+    },
+    {
+      "title": "PASS: FOUR STEPS",
+      "body": "P / PULL\nRemove the safety pin before squeezing.\n\nA / AIM\nPoint low at the burning material, at the fire's base.\n\nS / SQUEEZE\nPress the operating lever to discharge the agent.\n\nS / SWEEP\nMove the nozzle from side to side across the base.\n\nKeep your escape route clear. If the fire grows\nor conditions become unsafe, stop and withdraw.\nFollow the cylinder's instructions and training.",
+      "narration": "PASS has four steps. P: Pull the safety pin before squeezing. A: Aim low at the burning material, at the base of the fire. S: Squeeze the operating lever to discharge the agent. S: Sweep the nozzle from side to side across the base. Keep your escape route clear. If the fire grows or conditions become unsafe, stop and withdraw. Follow the cylinder's instructions and training."
+    },
+    {
+      "title": "ORDINARY COMBUSTIBLES",
+      "body": "Examples: paper, wood, cloth and office waste.\nRecognize the burning material, not only flame colour.\n\nUse an extinguisher whose label covers that material.\nWater may suit ordinary solid combustibles,\nbut not when live electrical equipment is involved.\n\nNever assume that all nearby materials are the same.\nIf you cannot identify the hazard or suitable equipment,\nwithdraw and request assistance.\n\nThis simulation's wastebasket incident represents\na small ordinary-combustible fire.",
+      "narration": "Ordinary combustible fires involve materials such as paper, wood, cloth and office waste. Recognize the burning material, not only the flame colour. Use an extinguisher whose label covers that material. Water may suit ordinary solid combustibles, but not when live electrical equipment is involved. Never assume all nearby materials are the same. If you cannot identify the hazard or suitable equipment, withdraw and request assistance. The simulation's wastebasket represents a small ordinary combustible fire."
+    },
+    {
+      "title": "ENERGIZED ELECTRICAL EQUIPMENT",
+      "body": "Examples: a live electrical enclosure or powered device.\nTreat it as energized unless authorized staff confirm\nthat the supply has been safely isolated.\n\nDo not pour ordinary water onto live equipment.\nIt creates an electric-shock hazard.\n\nOnly trained users should consider an extinguisher\nlabelled suitable for this electrical hazard,\nand only with safe conditions and an escape route.\n\nDo not approach burning equipment to unplug it.\nKeep clear, alert others and request assistance.",
+      "narration": "Energized electrical equipment includes a live enclosure or powered device. Treat it as energized unless authorized staff confirm safe isolation. Do not pour ordinary water onto live equipment: it creates an electric shock hazard. Only trained users should consider an extinguisher labelled suitable for this electrical hazard, and only with safe conditions and an escape route. Do not approach burning equipment to unplug it. Keep clear, alert others and request assistance."
+    },
+    {
+      "title": "FLAMMABLE LIQUID SPILL",
+      "body": "Examples include burning fuel or solvent spills.\n\nDo not throw water onto the burning liquid.\nIt can spread the fuel and enlarge the fire.\nDo not handle or move a burning container.\n\nOnly consider equipment labelled for the liquid,\nwith appropriate training and a clear escape route.\nDo not improvise an agent from nearby supplies.\n\nIf the spill is spreading, smoke is building,\nor safe escape is threatened, withdraw and raise help.",
+      "narration": "A flammable liquid fire can involve a burning fuel or solvent spill. Do not throw water onto the burning liquid: it can spread the fuel and enlarge the fire. Do not handle or move a burning container. Only consider equipment labelled for the liquid, with appropriate training and a clear escape route. Do not improvise an agent from nearby supplies. If the spill is spreading, smoke is building, or safe escape is threatened, withdraw and raise help."
+    },
+    {
+      "title": "EVACUATION AND A BLOCKED STAIR",
+      "body": "Use a safe stair route; do not use the lift during fire.\nClose doors behind you where safe.\nOnce outside, go to the assembly point and stay out.\n\nDo not enter a stair filled with fire or dense smoke.\nThis department model has only one staircase.\nIf there is no safe exit route, retreat away from danger,\nclose yourself in a suitable room and call for assistance.\nGive your floor, room and the conditions you can observe.\nFollow emergency responders' instructions.\n\nWaiting for help is not a completed rescue.\nThe real department's emergency plan takes priority.",
+      "narration": "Use a safe stair route, not the lift, during a fire. Close doors behind you where safe. Once outside, go to the assembly point and stay out. Do not enter a stair filled with fire or dense smoke. This department model has only one staircase. If there is no safe exit route, retreat away from danger, close yourself in a suitable room and call for assistance. Give your floor, room and the conditions you observe. Follow emergency responders' instructions. Waiting for help is not a completed rescue. The real department's emergency plan takes priority."
+    },
+    {
+      "title": "APPLY IT IN THIS SIMULATION",
+      "body": "ALARM: red FIRE ALARM panel / white PRESS button.\nASSISTANCE: EMERGENCY CALL panel or office phone.\nPC: aim and press E. VR: right ray and right trigger.\n\nEXTINGUISHER\nPC: G grab, P pin, hold left mouse and sweep your aim.\nVR: right grip grab, left trigger pin, right trigger spray.\nMove the right-hand nozzle to aim and sweep.\n\nOne standard cylinder is represented. Its real agent\nand rating still need checking: never infer suitability\nfrom the cylinder's colour or this prototype alone.\n\nThe practice check teaches; the assessment has no hints.",
+      "narration": "Apply the theory in this simulation. The red Fire Alarm panel has a white Press button. The Emergency Call panel or office phone requests simulated assistance. On PC, aim and press E. In VR, aim the right controller ray and press the right trigger. For the extinguisher on PC, G grabs, P removes the pin, and holding left mouse sprays while you sweep your aim. In VR, right grip grabs, left trigger removes the pin, and right trigger sprays. Move the right hand nozzle to aim and sweep. The installed cylinder's actual agent and rating still need verification. Never infer suitability from colour or the prototype alone. The practice check teaches; the assessment has no hints."
+    }
+  ],
+  "questions": [
+    {
+      "prompt": "During PASS, where should you aim?",
+      "answers": ["FLAME TIPS", "FIRE BASE", "NEAREST WALL"],
+      "correctAnswer": 1,
+      "explanation": "Aim at the base, where the material is burning.\nThen squeeze and sweep across that area.\nAiming at flame tips misses the burning source.",
+      "narration": "During PASS, where should you aim? Flame tips, the fire base, or the nearest wall?"
+    },
+    {
+      "prompt": "How should you treat ordinary water near live equipment?",
+      "answers": ["USE A BUCKET", "MOVE CLOSER", "DO NOT USE WATER"],
+      "correctAnswer": 2,
+      "explanation": "Ordinary water can conduct electricity. Keep clear\nof energized equipment and do not pour water on it.\nAny extinguisher must be suitable for the hazard.",
+      "narration": "How should you treat ordinary water near live electrical equipment? Use a bucket, move closer, or do not use water?"
+    },
+    {
+      "prompt": "The only stair is full of fire or dense smoke. What now?",
+      "answers": ["USE THE LIFT", "FORCE THROUGH", "RETREAT / CALL"],
+      "correctAnswer": 2,
+      "explanation": "Do not force through the unsafe stair or use the lift.\nIf no safe route exists, retreat to a suitable room,\nclose the door and request help with your location.",
+      "narration": "The only stair is full of fire or dense smoke. What now? Use the lift, force through, or retreat and call for help?"
+    },
+    {
+      "prompt": "When should an extinguisher attempt stop?",
+      "answers": ["IF SAFETY WORSENS", "ONLY WHEN EMPTY", "ONLY WHEN TOLD"],
+      "correctAnswer": 0,
+      "explanation": "Stop if heat, smoke, fire growth or loss of safe escape\nmakes the attempt unsafe. Prioritize leaving safely.\nDo not wait until the cylinder is empty.",
+      "narration": "When should an extinguisher attempt stop? If safety worsens, only when empty, or only when told?"
+    }
+  ]
+}
