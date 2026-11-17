@@ -1,5 +1,5 @@
 {
-  "scope": "Prior working project checks; sanitized source snapshot additionally checked for dependencies and compilation. No physical Quest test is claimed.",
+  "scope": "Focused automated runs from the working project, plus public-source checks. The project owner reported earlier successful VR use. No new physical Quest test or clean-clone Unity import is claimed for this report update.",
   "runs": [
     {
       "evidence": "controller-play-results-5.xml",
@@ -75,6 +75,87 @@
           "result": "Passed"
         }
       ]
+    },
+    {
+      "evidence": "course-edit-results.xml",
+      "date": "2026-11-09",
+      "result": "Passed",
+      "total": 4,
+      "passed": 4,
+      "failed": 0,
+      "cases": [
+        {
+          "name": "CoursePagesDoNotChangeScoringOrRawRecords",
+          "result": "Passed"
+        },
+        {
+          "name": "MilestoneIntervalsUseFirstEventsAndChronology",
+          "result": "Passed"
+        },
+        {
+          "name": "MissingAndLegacyDataDoNotBecomeZeroTimes",
+          "result": "Passed"
+        },
+        {
+          "name": "ReleaseBetweenMilestonesIsNotContinuousMotionTime",
+          "result": "Passed"
+        }
+      ]
+    },
+    {
+      "evidence": "course-controller-play-results.xml",
+      "date": "2026-11-09",
+      "result": "Failed(Child)",
+      "total": 5,
+      "passed": 4,
+      "failed": 1,
+      "cases": [
+        {
+          "name": "ControllerGripPicksEquipmentAndSecondPressReturnsIt",
+          "result": "Passed"
+        },
+        {
+          "name": "ControllerRaySelectsTheoryAndPanelPreventsWalking",
+          "result": "Passed"
+        },
+        {
+          "name": "LostControllerPausesClockAndRecoveryRequiresNeutralSticks",
+          "result": "Passed"
+        },
+        {
+          "name": "NearbyEquipmentCannotBeGrabbedThroughAWall",
+          "result": "Passed"
+        },
+        {
+          "name": "AddedPagesKeepNavigationReadableAndPreserveReport",
+          "result": "Failed"
+        }
+      ]
+    },
+    {
+      "evidence": "course-report-play-results.xml",
+      "date": "2026-11-09",
+      "result": "Passed",
+      "total": 1,
+      "passed": 1,
+      "failed": 0,
+      "cases": [
+        {
+          "name": "AddedPagesKeepNavigationReadableAndPreserveReport",
+          "result": "Passed"
+        }
+      ]
     }
-  ]
+  ],
+  "sourceSnapshotChecks": {
+    "date": "2026-11-17",
+    "managedCompilation": "Runtime, editor, EditMode and PlayMode test assemblies compiled using the existing working-project dependency cache.",
+    "managedAssessmentRules": {
+      "passed": 23,
+      "failed": 0
+    },
+    "serializedAssets": "Required metadata, package JSON and all serialized asset GUIDs resolved against project and existing package-cache metadata.",
+    "audioAssets": "32 non-silent mono PCM clips verified; physical output not tested.",
+    "scopeLimit": "No new Unity scene execution, fresh-clone import or physical Quest trial during archive publication."
+  }
 }

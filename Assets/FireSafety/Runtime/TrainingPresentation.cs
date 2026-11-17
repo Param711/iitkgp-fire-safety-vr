@@ -199,7 +199,9 @@ namespace FireSafety
             var r=session.report;if(r==null)return;
             showingMenu=false;
             var reviewPages=BuildReviewPages(r);
-            int timelineStart=3+reviewPages.Count;
+            var coursePages=TrainingCourseAnalysis.Pages(r);
+            int courseStart=3+reviewPages.Count;
+            int timelineStart=courseStart+coursePages.Count;
             int totalPages=timelineStart+Mathf.CeilToInt(r.events.Count/(float)TimelinePerPage);
             page=Mathf.Clamp(requested,0,totalPages-1);Place();ClearButtons();
             heading.text="SESSION ANALYSIS  /  "+(page+1)+" OF "+totalPages;
@@ -239,9 +241,13 @@ namespace FireSafety
                 b.AppendLine("Bucket collected: "+AssessmentReport.F(r.waterCollectedLiters)+" L    Poured: "+AssessmentReport.F(r.waterPouredLiters)+" L");
                 b.AppendLine("Effective water: "+AssessmentReport.F(r.waterEffectiveLiters)+" L    Unsafe water uses: "+r.unsafeWaterUses);
             }
-            else if(page<timelineStart)
+            else if(page<courseStart)
             {
                 b.Append(reviewPages[page-3]);
+            }
+            else if(page<timelineStart)
+            {
+                b.Append(coursePages[page-courseStart]);
             }
             else
             {

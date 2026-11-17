@@ -24,6 +24,7 @@ flowchart LR
 | Equipment | `Runtime/TrainingExtinguisher.cs`, `TrainingBucket.cs`, `TrainingWaterSource.cs`, `TrainingDoor.cs` | PASS observations, water collection/use and doors |
 | UI and audio | `Runtime/TrainingPresentation.cs`, `TrainingTheory.cs`, `TrainingAudio.cs` | Three-option panels, theory/quiz, narration and report pages |
 | Assessment | `Runtime/AssessmentModel.cs` and latest-result store | Rules, evidence, recommendations and local persistence |
+| Course analysis | `Runtime/TrainingCourseAnalysis.cs` | Read-only observed durations and PASS milestone intervals from the completed report |
 | Authoring | `Editor/TrainingSceneBuilder.cs`, `TrainingControllerSetup.cs` | Regenerate the building, configure controllers and build Windows |
 | Verification | `Tests/Editor`, `Tests/PlayMode`, `Tools` | Rule, scene, behavior, equipment and controller checks |
 

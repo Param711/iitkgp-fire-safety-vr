@@ -27,3 +27,5 @@ Routing first chooses an available building exit, then continues to assembly. Th
 ## Analysis
 
 The result records elapsed time, response actions, alarm/assistance timing, movement, exposure, route decisions, equipment/PASS observations, NPC exit outcomes and relevant events. Recommendations use the recorded actions. Ending in a closed office awaiting help is reported as pending assistance, not a completed rescue. A fast but unsafe response is not treated as successful solely because it is fast.
+
+After recommendations, two course-analysis pages show observed response durations and the PASS milestone intervals: pickup to pull, pull to established aim, aim to first squeeze, and squeeze to first sweep. Missing events are labelled **Not recorded**, reversed timestamps **Out of order**, and a tool release within an interval **Interrupted / released**. These views do not change the saved events, score or gameplay. See [the interpretation guide](COURSE_ANALYSIS.md).

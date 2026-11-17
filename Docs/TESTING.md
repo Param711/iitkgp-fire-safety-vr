@@ -8,8 +8,9 @@ Selected passing results from the working project are normalized in `validation-
 - 2 controller-policy EditMode tests: radial joystick dead zone and analog hysteresis.
 - 23 managed assessment-rule checks via `Tools/Verify-Code.ps1`.
 - Prior focused smoke/suppression results are listed separately in the JSON record. They are not a claim that every historical test ran together in a single uninterrupted suite.
+- On 9 November, four course-analysis EditMode tests passed, all four controller PlayMode regressions passed, and a focused report-navigation PlayMode test passed. The combined controller/report run initially had a report-fixture failure due to missing synthetic descriptions; the corrected focused report run passed. Both outcomes are retained in the validation summary.
 
-The project owner confirmed the corrected desktop preview. No physical Quest performance, haptics, stereo or audio trial is claimed. The public source copy also substitutes procedural fire audio and removes unrelated assets/settings; a clean Unity import and build of this exact copy still need verification.
+The project owner reported successful VR use of an earlier version and confirmed the report update worked in Unity. No new physical Quest performance, haptics, stereo or audio trial is claimed for the report update. The public source copy also substitutes procedural fire audio and removes unrelated assets/settings; a clean Unity import and build of this exact copy still need verification.
 
 ## Run checks
 

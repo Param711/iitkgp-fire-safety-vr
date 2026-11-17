@@ -13,6 +13,7 @@ This is a student project, not an official IIT Kharagpur product or a certified 
 - **Evacuation:** one staircase and two ground-floor exits, with NPC selection of the nearest available exit before continuing to assembly.
 - **Equipment:** an extinguisher with PASS observations, alarm and assistance panels, doors, taps, coolers and refillable buckets.
 - **Detailed analysis:** post-session decisions, equipment observations, route evidence, recommendations and a timeline. The latest result is saved locally.
+- **Work-system analysis:** two read-only report pages show observed response times and the recorded PASS handling sequence. Missing, reversed and interrupted milestones are identified explicitly; these are observed durations, not standard times or a formal PMTS result.
 - **Controller support:** ray and nearby grabbing, 30-degree snap turns, joystick dead zones, haptic feedback and tracking-loss recovery.
 
 Assessment play provides no live correctness hints. The theory quiz is separate from assessment scoring.
@@ -63,6 +64,9 @@ The Windows executable is written to **`Builds/WindowsXR/DepartmentFireSafety.ex
 - [Code structure and architecture](Docs/ARCHITECTURE.md)
 - [Tests and validation limits](Docs/TESTING.md)
 - [Building reference and known limitations](Docs/BUILDING_REFERENCE.md)
+- [Work-system analysis and interpretation](Docs/COURSE_ANALYSIS.md)
+- [Latest source changes](CHANGELOG.md)
+- [Keeping the project after uninstalling the tools](Docs/ARCHIVING.md)
 - [Third-party credits and licensing](THIRD_PARTY_NOTICES.md)
 
 ## Repository scope
@@ -75,9 +79,9 @@ The public source snapshot uses a small procedural fire-crackle loop in place of
 
 ## Validation status
 
-The working version passed four focused controller PlayMode checks, two controller-policy EditMode checks and the 23 managed assessment-rule checks. Selected prior smoke/suppression results are summarized in [the validation record](Docs/validation-results.json). The desktop preview was also confirmed by the project owner.
+The working version passed four focused controller PlayMode checks, two controller-policy EditMode checks and the 23 managed assessment-rule checks. The report update adds four passing course-analysis EditMode tests and one passing report-navigation PlayMode test; the four controller regressions also passed after that update. These were focused runs, not a claim of one combined full-suite run. Selected results are summarized in [the validation record](Docs/validation-results.json). The project owner reported successful VR use of an earlier version and confirmed that the report update worked in Unity.
 
-These results do **not** certify a physical Quest trial or a fresh-clone Unity import. Headset frame rate, comfort, stereo readability, floor height, haptics and physical audio still need a trial on the intended PC and Quest.
+The report update has no newly documented physical Quest trial, and the public source copy has not completed a fresh-clone Unity import. Headset frame rate, comfort, stereo readability, floor height, haptics and physical audio are not certified by these automated checks.
 
 ## Credits
 

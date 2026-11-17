@@ -46,6 +46,6 @@ For standalone Android development, install Unity's Android Build Support compon
 
 ## Reports
 
-The report opens in game after a trial. Use its page buttons to review overview, scoring evidence, equipment observations, recommendations and timeline. **PLAY > REPORT / BUILDING > LAST REPORT** reopens the latest result.
+The report opens in game after a trial. Use its page buttons to review overview, scoring evidence, equipment observations, recommendations, observed time study, PASS method analysis and timeline. **PLAY > REPORT / BUILDING > LAST REPORT** reopens the latest result.
 
 One `LastAssessment.json` is stored under Unity's `Application.persistentDataPath`; it is not stored in this repository. HTML/CSV export is off by default. Keep participant data and rehearsal results out of Git.
